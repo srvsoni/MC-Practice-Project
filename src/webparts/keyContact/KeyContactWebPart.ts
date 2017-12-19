@@ -12,7 +12,7 @@ import KeyContact from './components/KeyContact';
 import { IKeyContactProps } from './components/IKeyContactProps';
 
 export interface IKeyContactWebPartProps {
-  description: string;
+  description: string ;
 }
 
 export default class KeyContactWebPart extends BaseClientSideWebPart<IKeyContactWebPartProps> {

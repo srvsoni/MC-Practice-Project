@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "key-contact-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/keyContact/KeyContactWebPart.js",
+          "manifest": "./src/webparts/keyContact/KeyContactWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "KeyContactWebPartStrings": "lib/webparts/keyContact/loc/{locale}.js"
+  }
+}

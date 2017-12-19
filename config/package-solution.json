@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "mc-practice-project-client-side-solution",
+    "id": "a52ea4be-45fc-4986-af30-ba3a4850b07f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/mc-practice-project.sppkg"
+  }
+}
